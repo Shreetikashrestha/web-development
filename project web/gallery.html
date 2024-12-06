@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+             color: #5a3b06;
+            justify-content: center; /* Center horizontally */
+            align-items: center;    /* Center vertically */
+            background: #cb9048c1;
+        }
+
+        .gallery-content {
+            text-align: center;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+        }
+
+        .gallery-list-img {
+            display: flex;
+        
+            justify-content: center;
+            flex-wrap: wrap; /* Allow wrapping for smaller screens */
+            gap: 10px;       /* Space between images */
+        }
+
+        .gallery-img img {
+            display: flex;
+            justify-content: column;
+            width: 800px;   /* Set a fixed width */
+            height: 800px;  /* Set a fixed height */
+            object-fit: cover; /* Ensure the image maintains aspect ratio while fitting */
+            border-radius: 10px; /* Optional: rounded corners */
+            justify-content: space-between;
+        }
+    </style>
+   
+</head>
+<body>
+    <section class="gallery" id="gallery">
+        <div class="gallery-content">
+          <div class="section-title">
+            <h1>Gallery</h1>
+            <span>The princesses of Shree Studio</span>
+            <br>
+            <span>Thank you for choosing us</span>
+          </div>
+          <div class="gallery-list-img">
+            <div class="gallery-img">
+              <img src="./0.png" alt="Instagram Photo 1">
+              <img src="./1.png" alt="Instagram Photo ">
+              <img src="./3.png" alt="Instagram Photo ">
+              <img src="./4.png" alt="Instagram Photo ">
+              <img src="./5.png" alt="Instagram Photo ">
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      
+</body>
+
+</html>
