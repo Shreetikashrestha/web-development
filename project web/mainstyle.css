@@ -6,13 +6,15 @@
     
 }
 
+
 .search-bar {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+  
     background-color: #c9b41a; 
 }
+
 .search-button {
     margin-left: 10px;
     padding: 8px 16px;
@@ -210,6 +212,5 @@ footer {
 .social-icons img:hover {
     opacity: 0.8;
 }
-
 
 
