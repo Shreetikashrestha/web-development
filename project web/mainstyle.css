@@ -11,8 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
   
     background-color: #c9b41a; 
+
+}
+.searchbox{
+    display: flex;
+    align-items: center;
 }
 
 .search-button {

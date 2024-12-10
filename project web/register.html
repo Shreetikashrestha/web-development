@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Font style */
+            background: #fef6f3; /* Light peach background */
+            display: flex; /* Center the form */
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full screen height */
+        }
+
+        .register-container {
+            background: #fff; /* White background */
+            padding: 30px; /* Inner spacing */
+            border-radius: 10px; /* Rounded corners */
+            width: 300px; /* Fixed width */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+            text-align: center; /* Center text */
+          }
+          .register-container input[type="email"],
+          .register-container input[type="password"] {
+            width: 100%; /* Full width */
+            padding: 12px; /* Space inside the input */
+            margin-bottom: 15px; /* Space between inputs */
+            border: 1px solid #f4dcd1; /* Light peach border */
+            border-radius: 5px; /* Rounded corners */
+            background: #fef6f3; /* Light peach background */
+            font-size: 16px; /* Font size */
+            color: #333; /* Text color */
+          }
+          .register-container button {
+            width: 100%; /* Full width */
+            padding: 12px; /* Space inside */
+            background-color: #f25c3d; /* Orange background */
+            color: #fff; /* White text */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            margin-top: 10px; /* Space above button */
+          }
+          .register-container button:hover {
+            background-color: #03e13398; /* Darker orange on hover */
+          }
+          .register-container .already-account {
+            margin-top: 15px; /* Space above text */
+            font-size: 14px; /* Small text */
+            color: #555; /* Dark gray color */
+          }
+      
+          .register-container .already-account a {
+            color: #f25c3d; /* Orange text */
+            text-decoration: none; /* Remove underline */
+          }
+      
+          .register-container .already-account a:hover {
+            text-decoration: underline; /* Underline on hover */
+          }
+       
+
+    </style>
+
+</head>
+<body>
+    <div class="register-container">
+        <h2>Sign Up</h2>
+    
+        <!-- Input fields -->
+        <form>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <input type="password" placeholder="Confirm Password" required>
+    
+          <!-- register button -->
+          <button type="register">REGISTER</button>
+        </form>
+    
+        <!-- Already have account link -->
+        <p class="already-account">
+          Already have an account? <a href="./login.html">Log in</a>
+        </p>
+      </div>
+    
+</body>
+</html>
