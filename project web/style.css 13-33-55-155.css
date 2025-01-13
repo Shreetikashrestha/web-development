@@ -1,0 +1,126 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffa5e1;
+    color: #000000;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #5f0e63;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    
+    
+  }
+  .logo{
+    height: 30px;
+    width: 10%;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo */
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    color: #e91e63; /* Highlight color */
+  }
+  
+  /* Navigation Menu */
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu a:hover {
+    color: #e91e63;
+  }
+  
+  /* Header Actions */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .search-bar::placeholder {
+    color: #777;
+  }
+  
+  .search-bar:focus {
+    border: 1px solid #e91e63;
+  }
+  
+  /* CTA Button */
+  .cta-btn {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ff6090;
+  }
+  
+  /* Cart Icon */
+  .cart-icon {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #e91e63;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    padding: 2px 6px;
+  }
+  
